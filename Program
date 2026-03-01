@@ -2,3 +2,8 @@ import math
 import random 
 
 name = input("What's your name? ")
+other_input = input("Give ma any word, number, or phrase:")
+defdo_something(x)
+  try:
+    num = float(x)
+    return f"The square of your number is {num ** 2}."
