@@ -7,3 +7,12 @@ defdo_something(x)
   try:
     num = float(x)
     return f"The square of your number is {num ** 2}."
+ except ValueError:
+        transformed = x[::-1].upper()
+        return f"Your transformed text: {transformed}"
+
+result = do_something(other_input)
+
+print(f"\nHello, {name}!")
+print(result) //prints out result of input 
+
